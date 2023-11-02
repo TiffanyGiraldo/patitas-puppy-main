@@ -72,15 +72,12 @@ img{
 
 
 /* Utilidades */
-
 .text-center{
   text-align: center;
 }
 
 
 /* Barra nav */
-
-
 .barraNava{
     display: flex;
     justify-content: space-between;
@@ -98,8 +95,6 @@ img{
 
 .barraNava li{
     list-style: none;
-
-
 }
 
 .barraNava li a{
@@ -108,7 +103,6 @@ img{
     font-weight: 900;
     padding: 3rem;
     color: var(--blanco);
-
 }
 
 .tipo-mascota{
@@ -117,8 +111,8 @@ img{
     gap: 3rem;
     margin-top: 3rem;
     color: var(--blanco);
-
 }
+
 .contenido-mascota{
     padding: 5rem;
     width: 40rem;
@@ -130,7 +124,6 @@ img{
 }
 
 /* Banner */
-
 .banner img{
     width: 100%;
 }
@@ -172,7 +165,6 @@ img{
 
 
 /* Categorias */
-
 .categorias{
     margin-top: 5rem;
 }
@@ -180,19 +172,20 @@ img{
 .categorias h3{
     text-align: center;
 }
+
 .categorias-imagenes img{
     width: 16%;
     border: 1px solid var(--grisClaro);
     border-radius: 5rem;
     padding: 1rem;
 }
-.categorias-imagenes{
 
+.categorias-imagenes{
     display: flex;
     justify-content: space-between;
-    
 
 }
+
 
 .cards{
     display: grid;
@@ -208,8 +201,6 @@ img{
     border: 1px solid var(--grisClaro);
     border-radius: 2rem;
     padding: 2rem;
-
-
 }
 
 .banner-card{
@@ -264,9 +255,6 @@ img{
 
 
 /* Footer */
-
-
-
 footer{
     display: flex;
     justify-content: space-around;
@@ -290,7 +278,10 @@ footer{
     width: 50px;
 }
 
-
+/* Categorias Alimentos, etc*/
+.letra-categorias h1{
+    text-align: center;
+}
 
 
 
